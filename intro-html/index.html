@@ -1,1 +1,81 @@
-hey this is a test, let's see if this push
+<!-- '!' or "Bang" is a way for us to quickly create boiler plate code in our HTML file -->
+
+<!DOCTYPE html>
+
+<!-- DOCTYPE: declares exactly what it is, an HTML document
+- lang- notes what the language of our document is.
+- The head tag holds all of our meta data for the document.
+-This holds various information such as that title of the document, viewport settings, and links.
+ -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 
+        -charset: defines which characters are available to us, such as 0-9, A-Z, & symbols.
+        -UTF-8 covers almost all characters
+        - name & content: Details on the user viewport 
+        - title: Details the title of our document. Displayes at the top in the tab bar.
+     -->
+  </head>
+  <body>
+    <!-- 
+        The body tag: 
+            - What the client will display when rendering.
+            -What you see on the page in the browser.
+
+     -->
+    <h1>Examples of Structural Elements</h1>
+    <img />
+    <div>
+      <p>
+        - h1: heading. These range from h1-h6, getting smaller as the number
+        increases
+      </p>
+      <p>- div: a division</p>
+      <p>- img: provides us an element to present an image</p>
+      <p>- span: We can write a block of text without line breaks</p>
+    </div>
+
+    <h2>Sample H2</h2>
+    <h3>Sample H2</h3>
+    <h6>Sample H2</h6>
+
+    <!--  Through emmet, we can add blocks off text via "lorem". Great way to create filler text or content for mock ups -->
+
+    <span
+      >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+      reprehenderit tempore aliquid tempora odit? Est impedit facere accusantium
+      voluptates nisi dolorem culpa veritatis, temporibus asperiores tenetur
+      eius veniam corporis ex tempore error delectus placeat assumenda porro
+      magnam voluptatem exercitationem repudiandae. Unde, et repellat doloremque
+      quis distinctio incidunt laboriosam, eveniet nobis neque, mollitia magnam
+      doloribus vel totam suscipit quia dolorum ea atque adipisci nemo! Fugiat
+      excepturi eaque, fugit repellendus at eligendi tempore architecto sit
+      quisquam, quo, nemo ut maiores ducimus error nulla omnis nihil unde?
+      Mollitia aliquid iure quas facilis tempora necessitatibus corrupti omnis!
+      Quos omnis ab odio, quas adipisci quisquam!</span
+    >
+
+    <br />
+
+    <h2>Lists</h2>
+    <h3>Common Git Commands</h3>
+    <ol>
+      <li><i>git init</i> :Initializes an empty git repo</li>
+
+      <li><i>git add</i> : Add files to the staging area</li>
+
+      <li>
+        <i>git commit -m "some msg"</i> : Writes changes to the foles in staging
+      </li>
+
+      <li>
+        <i>git push origin *branch*</i> : Pushing updated changes to remote
+        repo. "main" branch by default
+      </li>
+    </ol>
+  </body>
+</html>
