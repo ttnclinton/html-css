@@ -46,18 +46,7 @@
     <!--  Through emmet, we can add blocks off text via "lorem". Great way to create filler text or content for mock ups -->
 
     <span
-      >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
-      reprehenderit tempore aliquid tempora odit? Est impedit facere accusantium
-      voluptates nisi dolorem culpa veritatis, temporibus asperiores tenetur
-      eius veniam corporis ex tempore error delectus placeat assumenda porro
-      magnam voluptatem exercitationem repudiandae. Unde, et repellat doloremque
-      quis distinctio incidunt laboriosam, eveniet nobis neque, mollitia magnam
-      doloribus vel totam suscipit quia dolorum ea atque adipisci nemo! Fugiat
-      excepturi eaque, fugit repellendus at eligendi tempore architecto sit
-      quisquam, quo, nemo ut maiores ducimus error nulla omnis nihil unde?
-      Mollitia aliquid iure quas facilis tempora necessitatibus corrupti omnis!
-      Quos omnis ab odio, quas adipisci quisquam!</span
-    >
+      >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nisi vitae esse sequi minus optio a aspernatur, dignissimos tempore inventore eveniet velit laudantium maiores, nesciunt quibusdam fugit vero ab in!</span>
 
     <br />
 
@@ -66,7 +55,7 @@
     <ol>
       <li><i>git init</i> :Initializes an empty git repo</li>
 
-      <li><i>git add</i> : Add files to the staging area</li>
+      <li><i>git add .</i> : Add files to the staging area</li>
 
       <li>
         <i>git commit -m "some msg"</i> : Writes changes to the foles in staging
@@ -77,5 +66,78 @@
         repo. "main" branch by default
       </li>
     </ol>
+
+    <img
+      src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png"
+      alt="Image of upright logo"
+      title="hovering over image will reveal me"
+    />
+
+    <!--
+        img tags have two default attributes
+            - src
+                - required
+                source of image, can be local or on the web
+            - alt
+                - optional ~ but highly recommended
+                - text that will displat if the image does not load
+                - title
+                    - can help with tool-tips (hovering over image)
+      -->
+
+    <!-- All of the above are structural elements  -->
+
+    <!-- emmet example: div>ul>li*6
+            - Will create a div container, with a ul within and 6 list items withing the <ul 
+        -->
+
+    <div>
+      <ul>
+        <li><strong>Bolds our text</strong>but so does <b>this</b></li>
+        <li><em>Provides emphasis</em> or <i>italics</i></li>
+        <li>
+          <blockquote>quote</blockquote>
+        </li>
+        <li><pre>A way to showcase code</pre></li>
+      </ul>
+    </div>
+
+    <div>
+      <!-- 
+            input: typically used in forms but not limited 
+                - many different types such as numbers, radial, email, password
+            link: won't show up in the browser, but it is a way for us to connect files like css
+
+         -->
+
+      <input type="text" />
+      <input type="password" />
+
+      <link rel=""stylesheet" href="" />
+    </div>
+
+    <div>
+      <br />
+      <h3>Linking to other HTML docs</h3>
+      <a href="https://www.uprighted.com" target="_blank">
+        <button>Upright ED</button>
+      </a>
+
+      <a href="./other_page.html"><button>Go to other page</button></a>
+    </div>
+
+    <div>
+        <header></header>
+        <nav></nav>
+        <aside></aside>
+        <section>
+            <article></article>
+            <article></article>
+        </main>
+        <footer></footer>
+
+        
+     </div>
   </body>
+</html>
 </html>
