@@ -77,4 +77,48 @@ nav > .btn {
     color: lightblue;
     border-radius: 25px;
 }
+
+/*
+
+    ! CSS Hierarchy
+
+        This is going to allow CSS to use distinct levels of "priority" to style our elements. The order of priority from weakest to strongest is::after
+
+
+            External Stylesheet:
+                - Element
+                - Class
+                - ID
+
+            Internal Stylesheet:
+                - Element
+                - Class
+                - ID
+                - Inline-Styling
+                - !important
+
+            "External Stylesheet" is a .css file which is not the .html file we our webpage in. 
+
+            "Internal Stylesheet" is CSS written within the .html file
+
+            "Inline-Styling" is when I add a "style" property/attribute to an element in my html file. 
+
+            Order of specificity:
+            1. !important
+            2. In-line style
+            3. id selector
+            4. class
+            5. element
+
+*/
+ .oos-class {
+    background-color: purple;
+}
+
+h3 {
+    background-color: red;
+}
+
+#oos-id {
+    background-color: white;
 }

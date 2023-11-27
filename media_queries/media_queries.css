@@ -1,0 +1,118 @@
+/* Media Queries */
+
+/* 
+    Common units of measurement:
+        - Percentages : %
+        - Viewport Width : vw
+        - Viewport height : vh
+        - Root element font size: rem
+        - Parent font size: em
+
+    Using Media Queries
+
+        ex: 
+            @media screen {  <------ target screens only
+
+                div { <---- element to adjust
+                    
+                    background-color: blue;
+
+                }
+            }
+
+        And @media screen and (min-width: 750px){
+
+                ***element***
+
+        or
+            @media screen, (min-width: 750px) {
+                ....
+            }
+        Build with Mobile first concept!
+*/
+
+
+@media (max-width:480px) {
+    body{
+        background-color: darkred;
+        -webkit-text-size-adjust: none;
+    }
+}
+
+
+/* Challenge 1 */ 
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    body {
+    /* Easy way to test if the m query works, is target something general like the body tag */
+    /* body {
+        background: red;
+    } */
+}
+
+nav ul li{
+    font-size: 1.3em;
+}
+
+footer {
+    padding-bottom: 2.5em;
+    font-size: 1.2em;
+}
+
+/* Challenge 2 */
+
+@media screen and (max-width: 375px) {
+    /*body {
+        background: blue; */
+}
+    nav ul lit { 
+        display: none;
+    }
+
+    header {
+        height: 20em;
+    }
+
+    }
+
+    @media screen and (max-width: 480px) {
+        /* global */
+        p { 
+            font: 16pt;
+        }
+        /* header */
+        nav ul {
+            padding: 0;
+        }
+
+        nav ul li {
+            font-size: x-large;
+        }
+
+        /* menu */
+
+        .item-desc {
+            width: 100vw;
+        }
+
+        .desc {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .desc > p {
+            padding: 1rem 3 rem;
+        }
+
+        /* footer */
+
+        footer {
+            font-size: x-large;
+            padding-bottom: ;
+        }
+    }
+
+
+
+
+

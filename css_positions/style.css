@@ -1,0 +1,61 @@
+/*
+    CSS position properties
+
+    ? Static
+    * default
+    * positioned in relation to elements
+    * top, bottom, left, right, z-index have NO EFFECT
+
+    ? Relative
+    * just like static
+    * can be changed using top, bottom, left, right, z-index
+    * values are relative to its original static position
+
+    ? Absolute
+    * remove the element from the flow
+    * positions it relative to the parent container
+    * if parent is static, it will move outside of the parent container
+    * if parent is relative, it will move within the parent container
+    * positioning defined by top, bottom, left, right, z-index
+
+    ? Fixed
+    * like absolute
+    * positioned to the viewpoint
+    * doesn't move when scrolling
+    * positioning defined by top, bottom, left, right, z-index
+
+    ? Sticky
+    * mix of relative and fixed
+    * relative to the flow
+    * position definition used for when you start scrolling
+    * stays fixed when scrolling; relative when stationary
+
+ */
+
+ .child {
+    padding: 25px;
+ }
+
+ .child1 {
+    border: 2px solid red;
+    background-color: red;
+    position: static;
+    /* Static -- position properties have no effect */ 
+    /* right: 250px; */
+ }
+
+ .child2 {
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    position: relative;
+/* Relative -- position properties have will work */
+/* right: 250px;
+ }
+
+ .child3 {
+    border: ;
+ }
+
+
+
+     

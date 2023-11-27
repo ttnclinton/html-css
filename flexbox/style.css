@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body { 
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(87, 107, 220);
+    display: flex;
+        /* Allows us to change the direction of the flex */
+        /* flex-direction: row;*/
+        /* Aligns flex items to the end */
+        justify-content: end;
+        /* Allows us to modify the space between flex items */
+        gap: 1em;
+        align items: center;
+        /* Testing out height with the swap of justify, and align items. Row vs column */
+        height: 50em;
+        height: 5em;
+
+}
+
+.main-container {
+    margin-top: 3em;
+    border: 2px solid black;
+    width: 100vw;
+    /*flex-direction: column;*/
+    /* If we use row we can have a new row appear with flex-wrap, respecting the width and height of it's container */
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    /* Handles the white space on flex that are wrapped within a constained parent, (Need extra room to see effect) */Í
+    gap: 1em;
+    height: 5500px;
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.c {
+    width: 200px;
+    height: 100px;
+    min-width: 200px;
+    min-height: 100 px;
+}
+
+.c1 {
+    border: 2px solid red;
+}
+.c2 {
+    border: 2px solid blue;
+   
+.articl-preview img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.article-preview .text { 
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+   
+}
+
