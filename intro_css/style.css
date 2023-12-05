@@ -11,7 +11,7 @@ These comments can span multiple lines
                     - body
                     - p
 
-
+ 
 
 */
 
@@ -27,7 +27,7 @@ p, h1 {
 }
 
 body{
-    background-color: rgb(255,0,0);
+    background-color: rgb(50,140,60);
 
     /*
     In CSS we have 3 major ways to refer to a color:border:
@@ -50,6 +50,10 @@ body{
     background-color: pink;
 }
 
+/*
+    IDs are accessed with the '#' symbol, followed by the id name.
+        - Great for targeting single element
+*/
 
 .btn{
     text-decoration: none;
@@ -60,7 +64,7 @@ body{
 }
 
 nav .btn {
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 5px black;
 }
 
 nav > .btn {
@@ -116,9 +120,23 @@ nav > .btn {
 }
 
 h3 {
-    background-color: red;
+    background-color: red !important;
 }
 
 #oos-id {
     background-color: white;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:link {
+    color: #7b7bcd;
+    font-size: 1em;
+
 }
